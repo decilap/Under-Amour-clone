@@ -1,0 +1,357 @@
+
+.burger--show{
+    display: flex;
+}
+
+
+
+.navigation-mobile {
+    position: fixed;
+    padding-bottom: 88px;
+    background-color: #ccc;
+    height: 100%;
+    right: 100%;
+    top: auto;
+    z-index: 95;
+    width: 85%;
+    border-right: 1px solid gray;
+    overflow-y: auto;
+    transition: transform 260ms ease-in-out 100ms;
+}
+
+.navigation-mobile .mobile-nav-container{
+    height: 329px;
+}
+
+.mobile-nav-user a {
+    color: #fff;
+}
+
+.nav_head_link{
+   justify-content: left !important;
+   color: #fff !important;
+}
+
+.nav_head_link i{
+    margin-right: 10px;
+ }
+
+.header-icons-left svg{
+    cursor: pointer;
+}
+
+.navigation-mobile li {
+    position: relative;
+    background-color: #ebebeb;
+    border-bottom: 1px solid gray;
+}
+
+.navigation-mobile a {
+    font-family: Armour_W_Rg,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1d;
+    padding: 18px 35px 14px 25px;
+    display: block;
+    line-height: 1;
+}
+
+.navigation-mobile .mobile-nav-user {
+    background-color: #ccc;
+}
+
+.navigation-mobile nav {
+    position: relative;
+    width: 100%;
+}
+
+.mobile-nav-container {
+    overflow: hidden;
+    transition: height 200ms ease-in;
+}
+
+.navigation-mobile .primary-nav{
+    overflow: hidden;
+}
+
+.mobile-nav-container ul.is-active {
+    left: 0;
+}
+
+.mobile-nav-container ul.is-default {
+    left: 0;
+    margin-top: 20px;
+}
+
+.mobile-nav-container ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    transition: left 260ms ease-in-out;
+}
+
+.mobile-nav-container ul li a {
+    cursor: pointer;
+}
+
+.navigation-mobile a {
+    font-family: Armour_W_Rg,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1d;
+    padding: 18px 20px 14px 25px;
+    display: block;
+    line-height: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.navigation-mobile.mobile-nav-open{
+    transform: translate(100%,0);
+}
+
+.mobile-nav-container ul.is-prev {
+    left: -100%;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation-mobile .menu-category {
+    font-family: Armour_W_Rg,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1d;
+    padding: 18px 35px 14px 25px;
+    display: block;
+    line-height: 1;
+}
+
+header{
+    position: fixed;
+    min-width: 411px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 95;
+    transition: transform 250ms ease-out;
+}
+
+.header_nav .nav_menu{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_nav .nav_link{
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header_nav  .nav_link--active{
+    color: #e70033;
+}
+
+
+
+
+
+.global-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    height: 60px;
+    padding: 0 20px;
+    overflow: visible;
+    z-index: 95;
+}
+
+.header-icons-left{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 80px;
+}
+
+.header-icons-right{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 100px;
+}
+
+.header-icons-left i{
+    font-size: 1.5em;
+    font-weight: 300px;
+    margin-left: auto;
+}
+
+.header-icons-right i{
+    font-size: 1.8em;
+    font-weight: 300px;
+    margin-left: auto;
+}
+
+.header-icons-left svg{
+    height: 25px;
+    width: 31px;
+}
+
+.primary-logo{
+    height: 60px;
+    width: 60px;
+}
+
+.navigation-mobile__text, .primary-logo__text {
+    left: -999em;
+    position: absolute;
+}
+
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width:768px){
+   .header_nav{
+       display: none;
+   }
+}
+
+@media screen and (min-width:769px){
+    .header_nav{
+        display: block;
+        width: 100%;
+    }
+
+    .main_title{
+        padding: 0;
+        display: block;
+        text-align: left;
+        width: 40.0%;
+        left: 60.0%;
+        top: 52.0%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .main_title div{
+    }
+
+    .main_title .main_link{
+        z-index: 3;
+        height: 1px;
+        padding: 0 0 0 0;
+        margin-bottom: 0;
+        top: 100%;
+        width: 100%;
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+
+   
+
+    .main_txt-head{
+     
+    }
+
+    .main_txt-head{
+        font-size: inherit;
+        text-align: left !important;
+    }
+
+
+    .main_txt-head h3{
+        font-size: inherit;
+        font-size: 3.55vw !important;
+        line-height: 1;
+        margin: 0 0 .3vw 0;
+        color: #1d1d1d;
+    }
+
+    .main_txt-head h4{
+        font-size: 16px !important;
+        margin: 10px 0 0 0;
+    }
+
+
+    .main_title .button{
+        background-color: #1d1d1d;
+        color: #fff;
+        border-color: #1d1d1d;
+        background-color: #1d1d1d;
+    }
+ }
+ 
+ @media screen and (min-width:992px){
+
+    .main_title .button{
+        padding: 11.5px 20px !important;;
+        font-size: 13px !important;
+    }
+
+    
+}
+
+@media screen and (min-width:1450px){
+    .main_title .main_link a{
+        flex: 1;
+        word-break: break-all;
+        font-size: 12px !important;
+    }
+    
+}
+
+.sub-navigation{
+    //display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+    background: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+
+.sub-navigation__wrapper{
+    display: flex;
+}
+
+.sub-navigation__spotlight{
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #6b6a6a;
+    margin-right: -1px;
+}
+
+.sub-navigation__spotlight a{
+    margin: 0;
+    font-family: Armour_W_Bd,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.sub-navigation ul{
+    text-align: left;
+}
